@@ -78,7 +78,10 @@ function draw() {
    
     fill("orange");
   textSize(50);
-  text("Press DOWN ARROW to start the game",350,300);
+  text("Press DOWN_ARROW to start the game",350,300);
+        fill("red");
+  textSize(50);
+  text("Press UP_ARROW to start the game",350,100);
   restart.visible = false;
   gameOver.visible = false;
 }
